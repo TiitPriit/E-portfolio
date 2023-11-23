@@ -16,7 +16,7 @@ const projects = () => {
                     <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Bookstore backend</h1>
                     <div className='grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center'>
                         <div className='aspect-w-5 aspect-h-3'>
-                            <Image src='/images/project-images/images.png' layout='fill' objectFit='contain' alt=''/>
+                            <Image src='/images/project-images/Bookstore.png' layout='fill' objectFit='contain' alt=''/>
                         </div>
                         <blockquote className='sm:col-span-2'>
                             <p className='text-xs md:text-base'>
@@ -30,7 +30,7 @@ const projects = () => {
                             </cite>
                             <div className='flex pt-8 space-x-4'>
                                 <div>
-                                    <a href='https://github.com/prasad-chavan1/Animesthetic-Social-Media' target='_blank' rel='noopner noreferrer'>
+                                    <a href='https://github.com/TiitPriit/bookstore' target='_blank' rel='noopner noreferrer'>
                                         <FiGithub size='30px'/>
                                     </a>
                                 </div>

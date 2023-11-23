@@ -58,7 +58,7 @@ const Contact = () => {
                         </h1>
                         <p className='max-w-xl text-lg pt-4'>
                             Have any questions? Send me a message here! <br />I respond
-                            quickly (within 48 hours). <br />
+                            quickly (sometimes). <br />
                             <br />
                             Additional ways to get in touch <br />
                             LinkedIn:{' '}
@@ -68,7 +68,7 @@ const Contact = () => {
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >
-                                /in/oskar-kallas-b7b958272//
+                                Oskar Kallas
                             </a>{' '}
                             <br />
                             Email:{' '}
@@ -76,7 +76,7 @@ const Contact = () => {
                                 className='text-blue-500 hover:underline'
                                 href='mailto:oskarkallas06@gmail.com'
                             >
-                                askokc4321@gmail.com
+                                oskarkallas06@gmail.com
                             </a>
                         </p>
                     </div>
