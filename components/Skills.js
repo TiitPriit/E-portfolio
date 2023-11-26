@@ -84,7 +84,7 @@ const Skills = () => {
             <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Other</span>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaGithub size="40px" />
-              git/GitHub
+              GitHub
             </li>
           </ul>
         </div>

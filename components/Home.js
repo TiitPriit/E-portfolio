@@ -28,7 +28,7 @@ const Home = () => {
                     <h1 className='text-4xl text-blue-500 font-extrabold md:text-6xl'>
                         Junior Developer
                     </h1>
-                    <p className='text-sm mt-4 mx-20 px-20 sm:leading-relaxed md:text-xl text-black'>
+                    <p className='text-sm mt-4 sm:leading-relaxed md:text-xl text-black'>
                         I am a junior developer who is passionate about
                         programming and technology. I am currently studying
                         computer science at Kuressaare Ametikool. I am
