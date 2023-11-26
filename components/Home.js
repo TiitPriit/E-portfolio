@@ -50,15 +50,6 @@ const Home = () => {
                                 Contact Me
                             </a>
                         </Link>
-                        <Link href=''>
-                            <a
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                className='px-12 py-3 text-sm font-medium text-culturedWhite bg-mnBlue rounded shadow active:bg-blue-500 hover:bg-carolinaBlue focus:outline-none focus:ring'
-                            >
-                                Resume
-                            </a>
-                        </Link>
                     </div>
                 </div>
             </div>
