@@ -142,7 +142,7 @@ const Contact = () => {
                                 ) : submitted ? (
                                         <Popup
                                             title='Message Sent! &#128077;'
-                                            message='Thank you for your message. I will get back to you within 48 hours.'
+                                            message='Thank you for your message. I will get back to you.'
                                             />
                                     ) : (
                                             <Popup
