@@ -36,11 +36,8 @@ const Home = () => {
                         developers and learn from them. I am also open to
                         freelance work. I am interested in web development and
                         mobile development. I have experience with React, 
-                        Next.js, Node.js . I am also familiar with Python, Java,
-                        and HTML/CSS. I am a quick learner and I am always ready to
-                        learn new things. I am a hard-working and responsible
-                        person. I am also a team player and I can work
-                        independently. I am fluent in English and Estonian.
+                        Next.js, Node.js. I am also familiar with Python, Java,
+                        and HTML/CSS. I am fluent in English and Estonian.
                     </p>
                     <div className='flex flex-wrap justify-center gap-4 mt-8 grid-cols-2'>
                         <Link href='/contact'>

@@ -79,14 +79,15 @@ const About = () => {
                   I am a junior developer who is passionate about programming and
                   technology. I am currently studying computer science at Kuressaare
                   Ametikool. I am looking for an opportunity to work in a team of
-                  developers and learn from them. I am also open to freelance work.
+                  developers and learn from them. I am also open to freelance work <br></br>
                   <a
-                    href="https://github.com/TiitPriit"
-                    className="underline text-blue-500"
+                  href="https://github.com/TiitPriit"
+                  className="underline text-blue-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >
-              
-                    here
-                  </a>
+                  HERE
+                </a>
                 </p>
                 <p className="text-left font-normal mb-5 flex-wrap"></p>
                 <p className="text-left font-normal mb-5 flex-wrap">
