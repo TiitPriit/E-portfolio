@@ -137,7 +137,7 @@ const Contact = () => {
                                         className='inline-flex items-center justify-center w-full px-5 py-3 text-white bg-mnBlue rounded-lg sm:w-auto space-x-2 hover:bg-carolinaBlue'
                                     >
                                         <span className='font-medium'> Send </span>
-                                        <IoIosSend size='20px' />
+                                        <IoIosSend size={20} />
                                     </button>
                                 ) : submitted ? (
                                         <Popup

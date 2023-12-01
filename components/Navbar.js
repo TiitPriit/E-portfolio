@@ -77,7 +77,7 @@ const Navbar = () => {
                                 <div className='flex space-x-4'>
                                     <div>
                                         <a href='https://github.com/TiitPriit' target='_blank' rel='noopener noreferrer'>
-                                            <BsGithub className='hidden md:block' size='2rem' />
+                                            <BsGithub className='hidden md:block' size={2} />
                                         </a>
                                     </div>
                                     <div>
@@ -85,14 +85,14 @@ const Navbar = () => {
                                             target='_blank'
                                             rel='noopener noreferrer'
                                         >
-                                            <BsLinkedin className='hidden md:block' size='2rem' />
+                                            <BsLinkedin className='hidden md:block' size={2} />
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div onClick={handleMobileNav} className='mr-14 md:hidden'>
-                            <AiOutlineMenu size='2rem' />
+                            <AiOutlineMenu size={2} />
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@ const Navbar = () => {
                                     <div className='flex space-x-4'>
                                         <div className='rounded shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                             <a href='https://github.com/TiitPriit' target='_blank' rel='noopener noreferrer'>
-                                                <BsGithub size='2rem' />
+                                                <BsGithub size={2} />
                                             </a>
                                         </div>
                                         <div className='rounded shadow-lg shadow-gray-400 p-3 cursor-pointer'>
@@ -169,7 +169,7 @@ const Navbar = () => {
                                                 target='_blank'
                                                 rel='noopener noreferrer'
                                             >
-                                                <BsLinkedin size='2rem' />
+                                                <BsLinkedin size={2} />
                                             </a>
                                         </div>
                                     </div>

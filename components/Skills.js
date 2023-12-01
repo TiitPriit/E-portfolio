@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaHtml5, FaPhp, FaWordpress, FaPython, FaCss3Alt, FaNode, FaReact, FaGithub } from "react-icons/fa";
+import { FaHtml5, FaPhp, FaPython, FaCss3Alt, FaNode, FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiMysql } from "react-icons/si";
 
 const Skills = () => {
@@ -29,55 +29,47 @@ const Skills = () => {
             <span className="text-blue-500 text-2xl w-full text-center md:w-fit">Backend</span>
 
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaPython size="40px" />
+              <FaPython size={40} />
               Python
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaNode size="40px" />
+              <FaNode size={40} />
               Node Js
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <SiMysql size="40px" />
+              <SiMysql size={40} />
               Mysql
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaPhp size="40px" />
+              <FaPhp size={40} />
               Php
-            </li>
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaWordpress size="40px" />
-              Wordpress
             </li>
           </ul>
 
           <ul className="flex justify-start items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
             <span className="text-blue-500 text-2xl w-full text-center md:w-fit">Frontend</span>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaReact size="40px" />
+              <FaReact size={40} />
               React
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaHtml5 size="40px" />
+              <FaHtml5 size={40} />
               HTML
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaCss3Alt size="40px" />
+              <FaCss3Alt size={40} />
               CSS
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <SiTailwindcss size="40px" />
+              <SiTailwindcss size={40} />
               Tailwind CSS
-            </li>
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaWordpress size="40px" />
-              Wordpress
             </li>
           </ul>
 
           <ul className="flex items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
             <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Other</span>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
-              <FaGithub size="40px" />
+              <FaGithub size={40} />
               GitHub
             </li>
           </ul>

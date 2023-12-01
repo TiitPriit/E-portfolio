@@ -1,5 +1,4 @@
-import { Analytics } from '@vercel/analytics/react';
-import '../styles/globals.css'
+import '/styles/globals.css'
 import Navbar from '../components/Navbar'
 
 function MyApp({ Component, pageProps }) {
@@ -7,7 +6,6 @@ function MyApp({ Component, pageProps }) {
 		<div className='bg-white'>
 			<Navbar/>
 			<Component {...pageProps} />
-			<Analytics />
 		</div>
 	)
 }
