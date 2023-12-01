@@ -42,10 +42,10 @@ const projects = () => {
                 </section>
 
                 <section className='p-4 md:p-8 bg-gray-200 rounded-lg shadow-2xl '>
-                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Bookstore backend</h1>
+                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Coin Chain</h1>
                     <div className='grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center'>
                         <div className='aspect-w-5 aspect-h-3'>
-                            <Image src='/images/project-images/' layout='fill' objectFit='contain' alt=''/>
+                            <Image src='/images/project-images/Raikochain.png' layout='fill' objectFit='contain' alt=''/>
                         </div>
                         <blockquote className='sm:col-span-2'>
                             <p className='text-xs md:text-base'>
